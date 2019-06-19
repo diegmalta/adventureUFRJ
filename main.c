@@ -14,7 +14,7 @@
 #include "player.h"
 #include "enemy.h"
 
-int main(){   
+int jogo(){   
     //start input c
     int c=0;
     //ask number of players [1/2]
