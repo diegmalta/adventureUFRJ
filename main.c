@@ -32,11 +32,6 @@ int jogo(){
     tiros_velocidade = enemy_instant;
     controle_tiro = enemy_instant;
 
-    //INITIATE ncurses
-    initscr();//initiate main window
-    cbreak();
-    noecho();
-
     //INITIATE new windows in function of standart window
     //function newwin(height, width, start_y,stat_x)
     int maxY, maxX;
